@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1 - Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <section>
+    <div class="inti">
+      <div class="Vector">
+        <img class="logoImg" src="img/Logo.png">
+        <h1  class="tittle">Encriptador de mensaje</h1>
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="input-texto" id="inputtexto" placeholder="Ingrese el texto aqui">
+      </div>
+      <div class="right">
+        <img src="img/Muñeco.png" id="imgDer">
+        <h1 id="texto" style="color: white;" >Ningún mensaje fue encontrado</h1>
+        
+        <div class="texto3">
+          <textarea id="texto2" >Ingresa el texto que desees encriptar o desenciptar.</textarea>
+        </div>
+        
+        <button type="button" id="copiar" onclick="copia()">¡Copiar!</button>
+      </div>
+      <div class="left-button">
+        <p class="parrafo" style="color: white;" >Sólo letra minusculas y sin acento</p>
+        <button type="button" class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" class="btn-desencriptar" onclick="desencriptar()">desencriptar!</button>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
